@@ -8,7 +8,7 @@ const agregarTareas = (e) => {
   const li = document.createElement("li");
   const boton = document.createElement("button");
   // agrego su value
-  li.textContent = valueDelInput;
+  li.textContent = "📝 : " + valueDelInput;
   boton.textContent = "🗑";
   // agrego sus clases
   li.classList.add("list-group-item", "d-flex", "justify-content-between");
